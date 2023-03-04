@@ -186,6 +186,8 @@ Cloud ID, from the Elastic Cloud web console. If set `hosts` should not be used.
 For more info, check out the
 {logstash-ref}/connecting-to-cloud.html[Logstash-to-Cloud documentation].
 
+IMPORTANT: Do not explicitly use `ssl => true` when using Cloud ID while all communication to Cloud should use HTTPS protocol and it is already included.
+
 [id="plugins-{type}s-{plugin}-connect_timeout_seconds"]
 ===== `connect_timeout_seconds`
 
